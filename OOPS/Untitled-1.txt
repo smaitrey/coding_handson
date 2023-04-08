@@ -1,0 +1,77 @@
+
+
+
+
+def func1(a,b, c = None, d = None):
+    return 0
+
+def func2(a = 10, b = 20):
+    pass
+
+
+d = {'a':5, 'b':3, 'c':4, 'd':1, 'e':2}
+
+def compare(t):
+    return t[1]
+
+
+sorted(d, key = compare)
+d2 = {}
+
+for key,value in d:
+    d2[value] = key
+
+sorted(d2)
+
+str = "this is my string: http://auth.abcd.org/user/defg%30/articles in the portal of https://www.google.co.in/ and http://www.zzz.org"
+
+str.split(" ")
+
+import regex
+
+L =['a', 'b', 'a', 'c', 'd', 'd', 'a', 'a', 'b', 'e', 'f']
+
+from collections import defaultdict as d
+
+for in range(len(L)):
+    d[L[i]] += 1
+
+list1 = []
+list2 = []
+
+
+for item in d:
+    if(d[item] == 1):
+        list1.append(item)
+    elif (d[item] > 1):
+        list2.append(item)
+
+
+print(list1)
+print(list2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
